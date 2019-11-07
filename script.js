@@ -80,8 +80,8 @@
 
 // Операторы И, ИЛИ 
 
-let isChecked = true,
-    isClose = true;
+// let isChecked = true,
+//     isClose = true;
 
-console.log(isChecked && isClose); // И (если все true, то true, а наче false)
-console.log(isChecked || isClose); // ИЛИ (если все false, то false, а иначе true)
+// console.log(isChecked && isClose); // И (если все true, то true, а наче false)
+// console.log(isChecked || isClose); // ИЛИ (если все false, то false, а иначе true)

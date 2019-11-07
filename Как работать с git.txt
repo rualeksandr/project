@@ -25,3 +25,14 @@ git config --global user.email RuAleksandr07@gmail.com
 git commit -a -m"Первая версия"
 
 6. Смотрим какие коммиты были: git log
+
+7. Подключаем внешний репозиторий
+git remote add origin https://github.com/rualeksandr/project.git
+git push -u origin master
+
+Итог:
+git add -A
+git commit -a -m"Третья версия"
+git push
+
+Подробнее изучить на сайте GitHowTo
