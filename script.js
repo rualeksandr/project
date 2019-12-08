@@ -85,3 +85,56 @@
 
 // console.log(isChecked && isClose); // И (если все true, то true, а наче false)
 // console.log(isChecked || isClose); // ИЛИ (если все false, то false, а иначе true)
+
+// ФУНКЦИИ 
+// let num = 20;
+// function showFirstMessage(text){
+//     alert(text);
+//     let num = 10;
+//     console.log(num);
+// }
+// showFirstMessage('УРА');
+// console.log(num);
+
+// function calc(a,b){
+//     return (a + b);
+// }
+// console.log(calc(3,4));
+// console.log(calc(8,4));
+
+// function retNum(){
+//     let num = 50;
+//     return num;
+// }
+// let anotherNum = retNum();
+// console.log(anotherNum);
+
+// function expression - не создается заранее
+// let calc = function(a,b) {
+//     return (a + b);
+// }
+// console.log(calc(4,9));
+
+// Стрелочная функция 
+// let calc = (a,b) => a + b;
+// console.log(calc(4,9));
+
+// Методы и свойства
+// let str = "test";
+// console.log(str.length); // Свойство длинна
+// console.log(str.toUpperCase()); // Метод переводит в верхний регистр
+// console.log(str.toLowerCase()); // Метод переводит в нижний регистр
+
+// let twelwe = "12.2";
+// console.log(Math.round(twelwe));
+
+let twelwe = "12.2px";
+console.log(parseInt(twelwe));
+console.log(parseFloat(twelwe));
+
+
+
+
+
+
+
