@@ -128,13 +128,46 @@
 // let twelwe = "12.2";
 // console.log(Math.round(twelwe));
 
-let twelwe = "12.2px";
-console.log(parseInt(twelwe));
-console.log(parseFloat(twelwe));
+// let twelwe = "12.2px";
+// console.log(parseInt(twelwe));
+// console.log(parseFloat(twelwe));
 
+// CALLBACK (выполнение функциии после другой)
+// Пример когда необходимо:
 
+// function first(){
+//   setTimeout( function(){
+//     console.log(1);
+//   }, 500 );
+// }
 
+// function second(){
+//   console.log(2);
+// }
 
+// first();
+// second();
 
+// Пример callback вызова 
 
+// function learnJS(lang, callback) {
+//   console.log("Я учу " + lang);
+//   callback();
+// }
 
+// learnJS("JavaScript", function() {
+//   console.log("Я прошел 3й урок!");
+// })
+
+// Пример 2 callback вызова 
+
+function learnJS(lang, callback) {
+  console.log("Я учу " + lang);
+  callback();
+}
+
+function done() {
+  console.log("Я прошел 3й урок!");
+}
+
+learnJS("JavaScript", done);
