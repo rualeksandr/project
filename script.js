@@ -203,3 +203,24 @@
 // }
 
 // console.log(Object.keys(options).length);
+
+
+
+
+// МАССИВЫ
+let arr = [1, 2, 3, 4, 5];
+
+arr.pop(); // Удаляет последний элемент массива
+arr.push("5"); // Добавляет в конец массива
+arr.shift(); // Удаляет первый элемент массива
+arr.unshift("1"); // Добавляет первый элемент
+
+arr[15] = 15; // Грубая ошибка строго указывать значение
+
+
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+}
+
+console.log(arr);
+
