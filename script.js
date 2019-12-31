@@ -205,22 +205,68 @@
 // console.log(Object.keys(options).length);
 
 
+// // МАССИВЫ И ПСЕВДОМАСИВЫ
+// let arr = [1, 2, 3, 4, 5];
 
+// arr.pop(); // Удаляет последний элемент массива
+// arr.push("5"); // Добавляет в конец массива
+// arr.shift(); // Удаляет первый элемент массива
+// arr.unshift("1"); // Добавляет первый элемент
 
-// МАССИВЫ
-let arr = [1, 2, 3, 4, 5];
+// arr[15] = 15; // Грубая ошибка строго указывать значение
+// console.log(arr.length);
 
-arr.pop(); // Удаляет последний элемент массива
-arr.push("5"); // Добавляет в конец массива
-arr.shift(); // Удаляет первый элемент массива
-arr.unshift("1"); // Добавляет первый элемент
+// //Перебор массива с помощью for
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// }
 
-arr[15] = 15; // Грубая ошибка строго указывать значение
+// //Перебор массива с помощью for
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// }
 
+// //Перебор массива с помощью forEach
+// arr.forEach(function(item, i, mass){
+//   console.log(i + ': ' + item + ' (массив: ' + mass + ')');
+// });
 
-for (let i = 0; i < arr.length; i++) {
-  console.log(arr[i]);
-}
+// console.log(arr);
 
-console.log(arr);
+// let mass = [1,7,9,15,36];
 
+// //Перебор ключей массива
+// for (let key in mass) {
+//   console.log(key);
+// }
+
+// //Перебор значений массива
+// for (let key of mass) {
+//   console.log(key);
+// }
+
+// split превращяет строку в массив по зазделителю
+// let ans = prompt("",""),
+//     arr = [];
+// arr = ans.split(","); //Строку превращяет в массив по зазделителю
+// console.log(arr); 
+
+// join превращяет массив в строку с разделителем
+// let arr = ['assr','yoeo','nurt','qxop'],
+//     i = arr.join(', ');
+// console.log(i);
+
+// Сортировка массива как текст
+// let arr = ['assr','yoeo','nurt','qxop'];
+// arr.sort();
+// console.log(arr);
+
+// // Сортировка чисел
+// let arr = [1,15,4];
+// arr.sort(compareNum);
+// function compareNum(a,b){
+//   return a-b;
+// }
+// console.log(arr);
+
+// // Псевдомассивы не обладают этими методами
