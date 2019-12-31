@@ -270,3 +270,19 @@
 // console.log(arr);
 
 // // Псевдомассивы не обладают этими методами
+
+
+// // 16. ООП
+// let soldier = {
+//   health:400,
+//   armor:100
+// };
+
+// let jonh = {
+//   health:100
+// }
+
+// jonh.__proto__ = soldier;
+
+// console.log(jonh);
+// console.log(jonh.armor);
